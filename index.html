@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/task  2/home.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/2b50a877cf.js" crossorigin="anonymous"></script>
 </head>
@@ -47,9 +47,12 @@
         var navLinks=document.getElementById("navLinks");
         function showMenu(){
             navLinks.style.right = "0"
+            navLinks.style.display = "block"
+
         }
         function hideMenu(){
             navLinks.style.right = "-200px"
+            navLinks.style.display = "none"
         }
     </script>
 </body>
