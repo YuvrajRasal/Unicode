@@ -6,9 +6,9 @@
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/eduford_img/banner.png) ;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/space.jpg) ;
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-position: center;
     background-size: cover;
     position: relative;
