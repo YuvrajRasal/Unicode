@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* .container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(/greg-rosenke-6QnEf_b47eA-unsplash.jpg);
+    background-position:center;
+    background-size: cover;
+
+}
+.contact-box{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 225px 0px;
+   
+}
+.contact-left{
+    flex-basis: 60%;
+    margin-left: 60px;
+} */
+body{
+    background: teal;
+    font-size: 140p;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: white;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background-color: aqua;
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    background-color: transparent;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
