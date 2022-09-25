@@ -6,6 +6,7 @@
 }
 .contact{
     position: relative;
+    width: 100%;
     min-height: 100vh;
     padding: 120px 100px;
 
@@ -154,26 +155,15 @@ nav .fa{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     position: relative;
 } */
-/* .fa-paper-plane{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #fff;
-    font-size: 26px;
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-} */
 
-.container form{
+.container form {
     width: 100%;
-    flex-basis: 0%;
-    padding: 40px;
+    flex-basis: 100%;
+    padding: 42px;
+    margin-right: 33px;
     /* background: white; */
     background: beige;
     /* background: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)); */
-
     border-radius: 10px;
 }
 
@@ -276,7 +266,7 @@ form button{
     }
     @media(max-width:600px){
         .container-New .contactInfo {
-            width: 134%;
+            width: 100%;
         }
         .container form{
             width: 100%;
@@ -317,4 +307,10 @@ form button{
             padding: 12px;
         }
     
+    }
+    @media(max-width:415px){
+        .container{
+            margin: 0px;
+
+        }
     }
